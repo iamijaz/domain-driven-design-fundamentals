@@ -1,9 +1,7 @@
-﻿using System;
-using System.Linq;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace FrontDesk.Web.AppStart
+namespace FrontDesk.Web
 {
     public class RouteConfig
     {

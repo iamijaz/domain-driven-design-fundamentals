@@ -1,5 +1,6 @@
 using System.Web.Http;
 using System.Web.Mvc;
+using FrontDesk.Web.Areas.HelpPage.App_Start;
 
 namespace FrontDesk.Web.Areas.HelpPage
 {

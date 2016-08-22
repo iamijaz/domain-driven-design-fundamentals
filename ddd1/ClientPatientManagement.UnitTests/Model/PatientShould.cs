@@ -1,9 +1,8 @@
-﻿using System;
+﻿using ClientPatientManagement.Core.Model;
 using FrontDesk.SharedKernel.Enums;
 using NUnit.Framework;
-using ClientPatientManagement.Core.Model;
 
-namespace FrontDesk.UnitTests.Model
+namespace ClientPatientManagement.UnitTests.Model
 {
     [TestFixture]
     public class PatientShould

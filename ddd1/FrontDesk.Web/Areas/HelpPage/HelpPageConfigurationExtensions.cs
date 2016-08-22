@@ -8,6 +8,7 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
 using FrontDesk.Web.Areas.HelpPage.Models;
+using FrontDesk.Web.Areas.HelpPage.SampleGeneration;
 
 namespace FrontDesk.Web.Areas.HelpPage
 {

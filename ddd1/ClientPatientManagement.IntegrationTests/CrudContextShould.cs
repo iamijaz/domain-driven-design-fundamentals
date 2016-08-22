@@ -3,7 +3,7 @@ using System.Linq;
 using ClientPatientManagement.Data;
 using NUnit.Framework;
 
-namespace ClientPatientManagement.IntegrationTests.Data
+namespace ClientPatientManagement.IntegrationTests
 {
   [TestFixture]
   public class CrudContextShould

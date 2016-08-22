@@ -17,13 +17,13 @@
 
 using System.Web.Http;
 using System.Web.Mvc;
-using Microsoft.AspNet.SignalR;
-using StructureMap;
+using FrontDesk.Web;
 using FrontDesk.Web.DependencyResolution;
+using StructureMap;
 
-[assembly: WebActivator.PreApplicationStartMethod(typeof(FrontDesk.Web.AppStart.StructuremapMvc), "Start")]
+[assembly: WebActivator.PreApplicationStartMethod(typeof(StructuremapMvc), "Start")]
 
-namespace FrontDesk.Web.AppStart {
+namespace FrontDesk.Web {
     public static class StructuremapMvc {
         public static void Start() {
 			IContainer container = IoC.Initialize();

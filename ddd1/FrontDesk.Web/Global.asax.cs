@@ -7,7 +7,6 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using AppointmentScheduling.Data;
 using ClientPatientManagement.Data;
-using FrontDesk.Web.AppStart;
 using StructureMap;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;

@@ -1,12 +1,9 @@
-﻿using Microsoft.AspNet.SignalR;
+﻿using FrontDesk.Web;
 using Microsoft.Owin;
 using Owin;
-using StructureMap;
-using System;
-using System.Linq;
 
-[assembly: OwinStartup(typeof(FrontDesk.Web.AppStart.Startup))]
-namespace FrontDesk.Web.AppStart
+[assembly: OwinStartup(typeof(Startup))]
+namespace FrontDesk.Web
 {
     public class Startup
     {
